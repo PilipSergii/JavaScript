@@ -1,0 +1,19 @@
+class Animals{
+ color = "black";
+  printColor=() =>{ 
+    console.log(this.color)
+  }
+}
+
+class Dogs extends Animals{
+  
+    name = "Snoopy";
+ 
+  printName=()=>{ 
+    console.log(this.name)
+  }
+}
+
+const dog = new Dogs();
+dog.printName();
+dog.printColor();
