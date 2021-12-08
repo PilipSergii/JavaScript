@@ -1,0 +1,4 @@
+const rest = (...argument) =>{
+  return argument.filter(el=>el!==1);
+}
+console.log(rest(1,2,3));
