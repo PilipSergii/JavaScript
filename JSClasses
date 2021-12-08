@@ -1,0 +1,22 @@
+class Animals{
+  constructor(){
+  this.color = "black";
+  }
+  printColor(){
+    console.log(this.color)
+  }
+}
+
+class Dogs extends Animals{
+  constructor(){
+    super();
+    this.name = "Snoopy";
+  }
+  printName(){
+    console.log(this.name)
+  }
+}
+
+const dog = new Dogs();
+dog.printName();
+dog.printColor();
