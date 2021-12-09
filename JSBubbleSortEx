@@ -1,0 +1,18 @@
+let arr = [7,4,1,6,2];
+
+function sortArr(unsorted){
+    for(let i=0; i< unsorted.length; i++){
+        for(let j=i+1; j < unsorted.length; j++){
+            let current = unsorted[i];
+            let next = unsorted[j];
+            console.log(current + "-" + next);
+            if (next<current){
+                unsorted[i]=unsorted[j]
+                unsorted[j]=current;
+            }
+        }
+    }
+    return(unsorted);
+}
+let result = sortArr(arr);
+console.log(result)
