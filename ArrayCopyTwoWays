@@ -1,0 +1,15 @@
+let input = [1,2,4];
+let inputCopy1 = [];
+let inputCopy2 = [];
+
+for(let i = 0; i<input.length; i++) {
+    inputCopy1.push(input[i]);
+}
+
+for(let i = 0; i<input.length; i++) {
+    inputCopy2[i]= input[i];
+}
+
+console.log(input);
+console.log(inputCopy1);
+console.log(inputCopy2);
