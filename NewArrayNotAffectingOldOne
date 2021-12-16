@@ -1,7 +1,9 @@
 function reverse2(arr){
-      let newArr = arr;
-      newArr.push(6,7);
-      console.log(newArr)
-    return arr;
+    let newArr = [];
+    for (let i = 0; i<=arr.length-1; i++){
+        newArr.push(arr[i]);
+    }
+        console.log(newArr)
+        return arr;
 }
 let result = reverse2([1,2,3,4,5]);
