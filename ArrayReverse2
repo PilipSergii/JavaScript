@@ -1,0 +1,11 @@
+let input = [1,2,4];
+function flip(input) {
+    let inputCopy = [];
+    for (let i = input.length-1; i > -1; i--)
+        inputCopy.push(input[i]);
+    }
+    return inputCopy;
+
+}
+
+console.log(flip(input));
