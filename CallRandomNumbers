@@ -1,0 +1,6 @@
+function randomFraction() {
+    let random  = Math.random(randomFraction)
+    console.log(random)
+    return random;
+}
+randomFraction();
