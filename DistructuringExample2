@@ -1,0 +1,10 @@
+let a, b, c, d, e;
+let names = ["alex", "tom", "bob", "steve", "jon"];
+
+let others;
+
+[a, b, ...others] = names;
+
+console.log(a);
+console.log(b);
+console.log(others);
