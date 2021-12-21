@@ -1,0 +1,8 @@
+function sayHello(name) {
+  return function () {
+    console.log("hello " + name);
+  };
+}
+
+let bob = sayHello("bob");
+bob();
