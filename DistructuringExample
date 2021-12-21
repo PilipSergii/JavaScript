@@ -1,0 +1,9 @@
+let a, b, c, d, e;
+let names = ["alex", "tom", "bob", "steve", "jon"];
+[a, b, c, e, d] = names;
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
