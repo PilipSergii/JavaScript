@@ -1,0 +1,19 @@
+let pattern = /xyz/;
+let value = "This is xyz a test";
+console.log(pattern.test(value));
+//it checks the string of value variable if it has pattern variable in it. If yes it returns true boolean
+
+
+
+let pattern = /xyz/;
+let value = "This is xyz a test";
+console.log(value.replace(pattern, "just"));
+
+// replaces 'xyz' with 'just'
+
+
+
+let pattern = /xyz/;
+let value = "This is xyz a test";
+console.log(value.match(pattern));
+//this gives more information about searchable string
