@@ -1,0 +1,18 @@
+function fact(n){
+    let arr = [];
+    let product=1;
+    for (let i = 1; i<=n; i++){
+      arr.push(i);
+      console.log(arr)
+   }
+   for(let j=0; j<arr.length; j++){
+       product*=arr[j];
+   }
+    return product;
+}
+
+// console.log(fact(1)); //has to return 1
+// console.log(fact(2));//has to return 2
+// console.log(fact(3));//has to return 6
+console.log(fact(4));//has to return 24
+// console.log(fact(5));//has to return 120
