@@ -1,0 +1,14 @@
+function rangeOfNumbers(startNum, endNum) {
+    if (startNum > endNum) {
+        return [];
+    }else{
+        let numbers = rangeOfNumbers(startNum, endNum -1);
+        numbers.push(endNum);
+        return numbers;
+    }
+}
+
+
+
+let result = rangeOfNumbers(5,10)
+console.log(result)
