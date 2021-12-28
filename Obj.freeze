@@ -1,0 +1,16 @@
+function freezeObj() {
+    const MATH_CONSTANTS = {
+        PI: 3.14
+    };
+    Object.freeze(MATH_CONSTANTS)// freezes the PI value, so it can't be changed
+
+    try {
+        MATH_CONSTANTS.PI = 99;
+    } catch(ex) {
+        console.log(ex);
+    }
+    return MATH_CONSTANTS.PI;
+}
+const PI = freezeObj(); 
+
+//the code will throw an error
