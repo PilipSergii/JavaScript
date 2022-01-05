@@ -1,0 +1,3 @@
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/gi; //matches all "s" letters in the string
+let result = difficultSpelling.match(myRegex);
