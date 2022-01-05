@@ -1,0 +1,3 @@
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; //  counts the number of alphanumeric characters in various quotes and strings using shorthand class \w
+let result = quoteSample.match(alphabetRegexV2).length;
