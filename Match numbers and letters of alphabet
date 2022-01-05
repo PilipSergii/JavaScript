@@ -1,0 +1,3 @@
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/gi; // matches letters between h and s and numbers between 2-6
+let result =quoteSample.match( myRegex); // Change this line
