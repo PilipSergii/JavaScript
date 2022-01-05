@@ -1,0 +1,3 @@
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // matches Cal in the beginning of the string. Note!!! ^ is used outside [] which is used to charachters that should not be matched
+let result = calRegex.test(rickyAndCal);
