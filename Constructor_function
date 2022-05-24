@@ -1,0 +1,14 @@
+function HouseKeeper (name, age, experience, languages){
+   this.name = name;
+    this.age = age;
+    this. experience = experience;
+    this.languages = languages;
+     
+}
+
+let houseKeeper1 = new HouseKeeper("Tanya", 20, 3, "English");
+  console.log(houseKeeper1); 
+
+let houseKeeper2 = new HouseKeeper("Sonya", 30, 12, ["English", "French"])
+    
+console.log(houseKeeper2)
